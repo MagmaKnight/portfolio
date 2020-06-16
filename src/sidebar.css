@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+html,
+body {
+  margin: 0;
+}
+
+#App {
+  font-family: 'Titillium Web';
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+  /* Our sidebar item styling */
+  font-family: 'Titillium Web';
+  margin-bottom: 10px;
+  color: #EFD2DC;
+  transition: color 0.2s;
+}
+
+img.mainpicture{
+    width: 5em;
+    height: 5em;
+}
+
+.active {
+    font-weight:bolder;
+    font-style: italic;
+}
+p.titlecard{
+    background: -webkit-linear-gradient(180deg, #b45d7a 0%, #EFD2DC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+div.title{
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Titillium Web';
+    font-size: 2em;
+    align-self: center;
+    padding-left: 1em;
+}
+ul.header {
+    display: inline-block;
+    font-family: 'Titillium Web';
+    margin-bottom: 10px;
+    color: #EFD2DC;
+    transition: color 0.2s;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    font-size: 1.5em;
+}
+ul.header a:hover {
+    color: #b45d7a;
+}
+
+ul.header a {
+    display: inline-table;
+    font-family: 'Titillium Web';
+    margin-bottom: 10px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.bm-item:hover {
+  color: #d1d1d1;
+}
+
+.bm-burger-button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 36px;
+  top: 36px;
+  color: #d1d1d1;
+  fill: #d1d1d1;
+}
+
+img.buttonlogo {
+  fill: #d1d1d1
+}
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #d1d1d1;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #d1d1d1;
+}
+
+.bm-cross:hover {
+    background: #b45d7a;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #000000;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  font-family: 'Titillium Web';
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #d1d1d1;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

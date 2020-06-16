@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+html{
+  min-height:100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Titillium Web';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(150deg, #522546 0%, #311d3f 100%);
+  background-image: -ms-linear-gradient(150deg, #522546 0%, #311d3f 100%);
+  background-image: -moz-linear-gradient(150deg, #522546 0%, #311d3f 100%);
+  background-image: -o-linear-gradient(150deg, #522546 0%, #311d3f 100%);
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #522546), color-stop(1, #311d3f));
+  background-image: -webkit-linear-gradient(150deg, #522546 0%, #311d3f 100%);
+  background-image: linear-gradient(150deg, #522546 0%, #311d3f 100%);
 }
+
+h1{
+  font-weight:bold;
+  color:#b45d7a;
+  font-variant: small-caps;
+}
+h2, h3 {
+  
+  color:#b45d7a;
+}
+.card{
+  background-color: #311d3f !important;
+  color: #311d3f;
+  fill: #311d3f;
+}
+.btn-flat {
+  background-color: #EFD2DC !important;
+  margin-top: 0.5em;
+}
+.btn-flat2 {
+  background-color: #EFD2DC !important;
+  margin-top: 0.5em;
+}
+.card-flat3{
+  color: red
+}
+p, h4 {
+  color: #EFD2DC;
+}
+hr {
+  color: white;
+  background-color:white;
+  width:50%
+}
+h5{
+  color: #EFD2DC;
+  margin-bottom:0px;
+}
+p.smalltext{
+  font-size:small;
+  margin: 0px;
+}
+code {
+  font-family: 'Titillium Web';
+}
+a {
+  width:1px;
+  height:1px;
+}
+
+img.contacts{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  margin: 1em;
+}
+p.contactinfo{
+  display: inline-block;
+}
+div.content {
+  padding-top: 3em;
+  font-family: 'Titillium Web';
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: center;
+}
+div.specialcolumn{
+  width: 54em;
+  margin: auto;
+}
+a.gitbutton{
+  padding: 1em; 
+  border-radius: 2em;
+  border: 3px solid #b45d7a;
+  background-color: #EFD2DC;
+  margin-right: 0.5em;
+}
+
