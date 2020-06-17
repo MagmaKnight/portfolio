@@ -24,48 +24,70 @@ h1{
   color:#b45d7a;
   font-variant: small-caps;
 }
+
 h2, h3 {
-  
   color:#b45d7a;
 }
+p, h4 {
+  color: #EFD2DC;
+}
+
+h5{
+  color: #EFD2DC;
+  margin-bottom:0px;
+}
+
+p.smalltext{
+  font-size:small;
+  margin: 0px;
+}
+
+p.contactinfo{
+  display: inline-block;
+  transition: color 1s;
+}
+p.contactinfo:hover{
+  color:#b45d7a;
+}
+p.jumbocontent{
+  color: #EFD2DC;
+}
+
 .card{
   background-color: #311d3f !important;
   color: #311d3f;
   fill: #311d3f;
 }
+
+.jumbotron{
+  background-color: #311d3f !important;
+  width: 85%;
+  margin: auto;
+}
+
 .btn-flat {
   background-color: #EFD2DC !important;
   margin-top: 0.5em;
 }
+
 .btn-flat2 {
   background-color: #EFD2DC !important;
   margin-top: 0.5em;
 }
+
 .card-flat3{
   color: red
 }
-p, h4 {
-  color: #EFD2DC;
-}
+
 hr {
   color: white;
   background-color:white;
   width:50%
 }
-h5{
-  color: #EFD2DC;
-  margin-bottom:0px;
-}
-p.smalltext{
-  font-size:small;
-  margin: 0px;
-}
-code {
-  font-family: 'Titillium Web';
-}
+
 a {
-  width:1px;
-  height:1px;
+  width:2em;
+  height:2em;
 }
 
 img.contacts{
@@ -74,8 +96,37 @@ img.contacts{
   height: 2em;
   margin: 1em;
 }
-p.contactinfo{
+
+img.skills{
   display: inline-block;
+  width: 5em;
+  height: 5em;
+  margin: 1em;
+  padding: 1em; 
+  border-radius: 2em;
+  border: 3px solid #b45d7a;
+  background-color: #EFD2DC;
+  transition: color 1s;
+}
+
+img.skills:hover{
+  transition: color 1s;
+  background-color: #b45d7a;
+}
+
+img.skills2 , img.skills3{
+  display: inline-block;
+  width: 7em;
+  height: 7m;
+  margin: 1em;
+  padding: 1em; 
+  border-radius: 1em;
+  border: 3px solid #cfb9ba;
+  background-color: #EFD2DC;
+  transition: color 1s;
+}
+img.skills3:hover{
+  background-color: #b45d7a;
 }
 div.content {
   padding-top: 3em;
@@ -94,5 +145,12 @@ a.gitbutton{
   border: 3px solid #b45d7a;
   background-color: #EFD2DC;
   margin-right: 0.5em;
+  transition: color 1s;
 }
+
+a.gitbutton:hover{
+  background-color: #b45d7a;
+}
+
+
 

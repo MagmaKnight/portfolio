@@ -31,7 +31,7 @@ class projects extends Component {
                   </p>
                 </Card.Text>
                 <a
-                  href="https://github.com/MagmaKnight/magmaknight.github.io"
+                  href="https://github.com/MagmaKnight/React-Portfolio/tree/master"
                   className="gitbutton"
                 >
                   <img src={github} className="contacts" alt="" />

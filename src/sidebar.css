@@ -52,7 +52,7 @@ div.title{
 ul.header {
     display: inline-block;
     font-family: 'Titillium Web';
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #EFD2DC;
     transition: color 0.2s;
     list-style-type: none;
@@ -67,7 +67,7 @@ ul.header a:hover {
 ul.header a {
     display: inline-table;
     font-family: 'Titillium Web';
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     color: #d1d1d1;
     transition: color 0.2s;
     list-style-type: none;

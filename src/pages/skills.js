@@ -1,21 +1,20 @@
 import React, { Component } from "react";
- 
-class skills extends Component {
+import SkillSelection from "./skillpages/default.js";
+import Jumbotron from "react-bootstrap/Jumbotron";
+export default class skills extends Component {
   render() {
     return (
       <div>
-        <h2>Skills</h2>
-        <p>Cras facilisis urna ornare ex volutpat, et
-        convallis erat elementum. Ut aliquam, ipsum vitae
-        gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-        metus nec massa. Maecenas hendrerit laoreet augue
-        nec molestie. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus.</p>
- 
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+        <div>
+          <h2>Skills</h2>
+        </div>
+        <SkillSelection />
+        <div>
+          <Jumbotron>
+            <h2>Click on any of the icons for more details.</h2>
+          </Jumbotron>
+        </div>
       </div>
     );
   }
 }
- 
-export default skills;
