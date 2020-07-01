@@ -1,0 +1,19 @@
+div.translationbutton {
+    position: fixed;
+    right: 2em;
+    top: 2.5em;
+  }
+
+.btn-translationbutton2 {
+    background: none;
+    color: #EFD2DC;
+    margin-left: 1em;
+    text-transform: uppercase;
+    transition: color 1s, background-color 1s;
+}
+.btn-translationbutton2:hover {
+    background: #EFD2DC;
+    color: #b45d7a;
+    margin-left: 1em;
+    text-transform: uppercase
+}

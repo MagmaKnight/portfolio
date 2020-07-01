@@ -31,7 +31,7 @@ class projects extends Component {
                   </p>
                 </Card.Text>
                 <a
-                  href="https://github.com/MagmaKnight/React-Portfolio/tree/master"
+                  href="https://github.com/magmaknight/React-Portfolio/tree/master"
                   className="gitbutton"
                 >
                   <img src={github} className="contacts" alt="" />
@@ -51,13 +51,13 @@ class projects extends Component {
                   </p>
                 </Card.Text>
                 <a
-                  href="https://github.com/MagmaKnight/moodle-calendar"
+                  href="https://github.com/magmaknight/moodle-calendar"
                   className="gitbutton"
                 >
                   <img src={github} className="contacts" alt="" />
                 </a>
                 <a
-                  href="https://github.com/MagmaKnight/moodle-calendar/releases"
+                  href="https://github.com/magmaknight/moodle-calendar/releases"
                   className="gitbutton"
                 >
                   <img src={boxicon} className="contacts" alt="" />
@@ -74,13 +74,13 @@ class projects extends Component {
                   <p>A simple calculator built using Python and Tkinter </p>
                 </Card.Text>
                 <a
-                  href="https://github.com/MagmaKnight/tkalculator"
+                  href="https://github.com/magmaknight/tkalculator"
                   className="gitbutton"
                 >
                   <img src={github} className="contacts" alt="" />
                 </a>
                 <a
-                  href="https://github.com/MagmaKnight/tkalculator/releases"
+                  href="https://github.com/magmaknight/tkalculator/releases"
                   className="gitbutton"
                 >
                   <img src={boxicon} className="contacts" alt="" />

@@ -3,9 +3,9 @@ import { slide as Menu } from "react-burger-menu";
 import "./sidebar.css";
 import { NavLink, HashRouter } from "react-router-dom/cjs/react-router-dom.min";
 import facepicture from "./assets/circle-cropped(1).png";
-import moon from "./assets/moon.svg";
-
-export default class SideBar extends React.Component {
+import moon from "./assets/favicon.png";
+import { withTranslation } from 'react-i18next';
+class SideBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,11 +21,11 @@ export default class SideBar extends React.Component {
   openMenu() {
     this.setState({ menuOpen: true });
   }
-
   render() {
+    const { t } = this.props;
     return (
       <Menu
-        customBurgerIcon={ <img src={moon} class="buttonlogo" /> }
+        customBurgerIcon={<img src={moon} class="buttonlogo" alt="" />}
         isOpen={this.state.menuOpen}
         onStateChange={(state) => this.handleStateChange(state)}
       >
@@ -33,23 +33,35 @@ export default class SideBar extends React.Component {
           <div>
             <div class="title">
               <img src={facepicture} class="mainpicture" alt="" />
-              <p className="titlecard">Luchas Arie</p>
+              <p className="titlecard">
+                Luchas Arie
+              </p>
             </div>
             <ul className="header">
               <li onClick={() => this.closeMenu()}>
-                <NavLink to="/pages/home">Home</NavLink>
+                <NavLink to="/pages/home">
+                {t('card1', 'Welcome')}
+                </NavLink>
               </li>
               <li onClick={() => this.closeMenu()}>
-                <NavLink to="/pages/about">About</NavLink>
+                <NavLink to="/pages/about">
+                 {t('card3', 'About')}
+                </NavLink>
               </li>
               <li onClick={() => this.closeMenu()}>
-                <NavLink to="/pages/skills">Skills</NavLink>
+                <NavLink to="/pages/skills">
+                {t('card2', 'Skills')}
+                </NavLink>
               </li>
               <li onClick={() => this.closeMenu()}>
-                <NavLink to="/pages/projects">Projects</NavLink>
+                <NavLink to="/pages/projects">
+                {t('card4', 'Projects')}
+                </NavLink>
               </li>
               <li onClick={() => this.closeMenu()}>
-                <NavLink to="/pages/contact">Contact Me!</NavLink>
+                <NavLink to="/pages/contact">
+                {t('card5', 'Contact Me!')}
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -58,3 +70,4 @@ export default class SideBar extends React.Component {
     );
   }
 }
+export default withTranslation()(SideBar);

@@ -18,7 +18,7 @@ export default class htmlskill extends Component {
               I have often built many small websites examples when I was young,
               having done several of them for school projects. I also worked on
               a character sheet based only on HTML and CSS on the popular TRPG
-              site Roll20, the code of which is still hosted on my Github <a href="https://github.com/MagmaKnight/instinct">here.</a>
+              site Roll20, the code of which is still hosted on my Github <a href="https://github.com/avalanchef/instinct">here.</a>
             </p>
           </Jumbotron>
         </div>

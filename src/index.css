@@ -44,7 +44,7 @@ p.smalltext{
 
 p.contactinfo{
   display: inline-block;
-  transition: color 1s;
+  transition: color 0.5s;
 }
 p.contactinfo:hover{
   color:#b45d7a;
@@ -106,11 +106,10 @@ img.skills{
   border-radius: 2em;
   border: 3px solid #b45d7a;
   background-color: #EFD2DC;
-  transition: color 1s;
+  transition: background-color 0.5s;
 }
 
 img.skills:hover{
-  transition: color 1s;
   background-color: #b45d7a;
 }
 
@@ -123,7 +122,8 @@ img.skills2 , img.skills3{
   border-radius: 1em;
   border: 3px solid #cfb9ba;
   background-color: #EFD2DC;
-  transition: color 1s;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
 }
 img.skills3:hover{
   background-color: #b45d7a;
@@ -131,8 +131,8 @@ img.skills3:hover{
 div.content {
   padding-top: 3em;
   font-family: 'Titillium Web';
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
   text-align: center;
 }
 div.specialcolumn{
@@ -145,7 +145,7 @@ a.gitbutton{
   border: 3px solid #b45d7a;
   background-color: #EFD2DC;
   margin-right: 0.5em;
-  transition: color 1s;
+  transition: background-color 0.5s;
 }
 
 a.gitbutton:hover{

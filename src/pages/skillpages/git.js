@@ -12,7 +12,7 @@ export default class gitskill extends Component {
         <SkillSelection />
         <div>
           <Jumbotron>
-            <a href="https://github.com/MagmaKnight">
+            <a href="https://github.com/magmaknight">
               <img src={github} className="skills3" alt="" />
             </a>
             <h2>GIT</h2>

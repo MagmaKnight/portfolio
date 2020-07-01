@@ -3,7 +3,7 @@ import "./index.css";
 import SideBar from "./sidebar";
 import { Route, HashRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import home from "./pages/home";
+import Home from "./pages/home";
 import about from "./pages/about";
 import projects from "./pages/projects";
 import skills from "./pages/skills";
@@ -17,6 +17,7 @@ import officeskill from "./pages/skillpages/office";
 import reactjsskill from "./pages/skillpages/reactjs";
 import sqlskill from "./pages/skillpages/sql";
 import phpskill from "./pages/skillpages/php";
+import TranslationButton from "./translationbutton";
 
 
 export default function App() {
@@ -24,9 +25,10 @@ export default function App() {
     <HashRouter>
       <div id="outer-container">
         <SideBar />
+        <TranslationButton />
         <div className="pagewrap">
           <div className="content">
-            <Route path="/pages/home" component={home} />
+            <Route path="/pages/home" component={Home} />
             <Route path="/pages/about" component={about} />
             <Route path="/pages/contact" component={contact} />
             <Route path="/pages/projects" component={projects} />
@@ -40,7 +42,7 @@ export default function App() {
             <Route path="/pages/skillpages/git" component={gitskill} />
             <Route path="/pages/skillpages/reactjs" component={reactjsskill} />
             <Route path="/pages/skillpages/office" component={officeskill} />
-            <Route exact path='/' component={home} />
+            <Route exact path='/' component={Home} />
           </div>
         </div>
       </div>
