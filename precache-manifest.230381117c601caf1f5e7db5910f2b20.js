@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb343fe20520d0590d96a7d12bb99215",
+    "revision": "ee593b574c427301bed9b8f3b71411b6",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a4837d0a9004c1654207",
+    "revision": "ae8877debb44be499457",
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "02206f170d47f319bd5c",
-    "url": "/portfolio/static/css/main.c8dccbb2.chunk.css"
+    "revision": "24c7ed7b03315b953ff4",
+    "url": "/portfolio/static/css/main.b415a288.chunk.css"
   },
   {
-    "revision": "a4837d0a9004c1654207",
-    "url": "/portfolio/static/js/2.99b433ef.chunk.js"
+    "revision": "ae8877debb44be499457",
+    "url": "/portfolio/static/js/2.dbbcb2f5.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio/static/js/2.99b433ef.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.dbbcb2f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02206f170d47f319bd5c",
-    "url": "/portfolio/static/js/main.bbce5d78.chunk.js"
+    "revision": "24c7ed7b03315b953ff4",
+    "url": "/portfolio/static/js/main.fd855494.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
@@ -48,6 +48,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/database.ceb03e85.svg"
   },
   {
+    "revision": "399a40123297d07cc56970547b142755",
+    "url": "/portfolio/static/media/favicon.399a4012.png"
+  },
+  {
+    "revision": "013f0b90a4cae7b8bbf13e3fd9e7dc4a",
+    "url": "/portfolio/static/media/getFetch.013f0b90.cjs"
+  },
+  {
     "revision": "1cab432600f422a76eb6426e5b396333",
     "url": "/portfolio/static/media/html5.1cab4326.png"
   },
@@ -66,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e6956db22f6b55500046d41bb128484a",
     "url": "/portfolio/static/media/mail.e6956db2.svg"
-  },
-  {
-    "revision": "5dbea3e9e16b242c7c7e89ad026a2618",
-    "url": "/portfolio/static/media/moon.5dbea3e9.svg"
   },
   {
     "revision": "3d7aaf3c80f4329e1aa4e99d8edfcb64",
