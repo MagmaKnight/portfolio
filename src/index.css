@@ -44,7 +44,7 @@ p.smalltext{
 
 p.contactinfo{
   display: inline-block;
-  transition: color 0.5s;
+  transition: color 0.2s;
 }
 p.contactinfo:hover{
   color:#b45d7a;

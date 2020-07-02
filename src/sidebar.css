@@ -80,6 +80,12 @@ ul.header a {
 .bm-item:hover {
   color: #d1d1d1;
 }
+@keyframes glowing {
+  0% { box-shadow: 0 0 -10px #b45d7a; }
+  40% { box-shadow: 0 0 0px #b45d7a; }
+  60% { box-shadow: 0 0 10px #b45d7a; }
+  100% { box-shadow: 0 0 -15px #b45d7a; }
+}
 
 .bm-burger-button {
   position: relative;
@@ -93,6 +99,7 @@ ul.header a {
   background-color:none;
   border-radius: 10em;
   transition: background-color 1s;
+  animation: glowing 3000ms infinite;
 }
 .bm-burger-button:hover {
   background-color: #EFD2DC;

@@ -26,8 +26,10 @@ i18n
 	.use(LanguageDetector)
 	.use(initReactI18next)
 	.init({
-		fallbackLng: "pt",
-		debug: true,
+		debug: true ,
+		whitelist: ['pt', 'en'],
+		nonExplicitWhitelist: true,
+		load: "languageOnly",
 		interpolation: {
 			escapeValue: false,
 		},
@@ -191,6 +193,7 @@ i18n
 				},
 			},
 		},
+		fallbackLng: 'pt',
 	});
 
 export default i18n;
