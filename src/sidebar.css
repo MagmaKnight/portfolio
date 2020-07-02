@@ -27,8 +27,8 @@ body {
 }
 
 img.mainpicture{
-    width: 5em;
-    height: 5em;
+    width: 10em;
+    height: 10em;
 }
 
 .active {
@@ -36,42 +36,45 @@ img.mainpicture{
     font-style: italic;
 }
 p.titlecard{
-    background: -webkit-linear-gradient(180deg, #b45d7a 0%, #EFD2DC 100%);
+    background: #b45d7a
+    -webkit-linear-gradient(180deg, #b45d7a 0%, #EFD2DC 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    font-family: 'Titillium Web';
+    font-size: 2.1em;
 }
 div.title{
     display: block;
     margin-bottom: 10px;
-    font-family: 'Titillium Web';
-    font-size: 2em;
     align-self: center;
     padding-left: 1em;
 }
 ul.header {
-    display: inline-block;
+    display: block;
     font-family: 'Titillium Web';
-    margin-bottom: 5px;
+    align-self: center;
+    padding-left: 0.65em;
+    white-space: nowrap;
     color: #EFD2DC;
+    font-size: 1.5em;
     transition: color 0.2s;
     list-style-type: none;
     text-decoration: none;
-    text-align: left;
-    font-size: 1.5em;
 }
 ul.header a:hover {
     color: #b45d7a;
 }
 
 ul.header a {
-    display: inline-table;
-    font-family: 'Titillium Web';
-    margin-bottom: 2px;
+    display: inline-block;
+    font-family: 'Titillium Web'; 
     color: #d1d1d1;
     transition: color 0.2s;
     list-style-type: none;
     text-decoration: none;
+    text-align: left;
+    align-self: center;
 }
 
 .bm-item:hover {
@@ -92,7 +95,7 @@ ul.header a {
   transition: background-color 1s;
 }
 .bm-burger-button:hover {
-  background-color: #d1d1d1;
+  background-color: #EFD2DC;
 }
 img.buttonlogo {
   background-color: #d1d1d1
@@ -120,7 +123,7 @@ img.buttonlogo {
 /* General sidebar styles */
 .bm-menu {
   background: #000000;
-  padding: 2.5em 1.5em 0;
+  padding: 3em 1.5em 0;
   font-size: 1.15em;
   font-family: 'Titillium Web';
 }

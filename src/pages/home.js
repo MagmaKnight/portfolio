@@ -5,7 +5,7 @@ const Home = () => {
 	const { t } = useTranslation();
 	return (
 		<div>
-			<h1>{t("intro", "Welcome there")}</h1>
+			<h1>{t("intro")}</h1>
 			<p>
 				{t(
 					"intro2",

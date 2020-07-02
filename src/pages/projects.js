@@ -6,12 +6,13 @@ import calculator from "../assets/Python-Calculator-6.png";
 import calendar from "../assets/calendar.png";
 import github from "../assets/GitHub-Mark-32px.png";
 import boxicon from "../assets/box.svg"
+import { withTranslation } from 'react-i18next';
 class projects extends Component {
-  render() {
+  render() {const { t } = this.props;
     return (
       <div>
-        <h2>Projects</h2>
-        <p>Click the Github Icon for the repo, or the Package icon for latest release.</p>
+        <h2>{t('project1')}</h2>
+        <p>{t('project2')}</p>
         <hr></hr>
         <div className="specialcolumn">
           <CardColumns>
@@ -23,11 +24,11 @@ class projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <h3>This Site</h3>
+                  <h3>{t('projectsite1')}</h3>
                 </Card.Title>
                 <Card.Text>
                   <p>
-                    Portfolio site created using React.js and a lot of coffee.
+                    {t('projectsite2')}
                   </p>
                 </Card.Text>
                 <a
@@ -42,12 +43,11 @@ class projects extends Component {
               <Card.Img variant="top" src={calendar} alt="" />
               <Card.Body>
                 <Card.Title>
-                  <h3>Moodle Calendar</h3>
+                  <h3>{t('moodlecalendar1')}</h3>
                 </Card.Title>
                 <Card.Text>
                   <p>
-                    A python program built with PyQt5 and WebDriver that checks
-                    a student's moodle for quizzes and assignments.
+                    {t('moodlecalendar2')}
                   </p>
                 </Card.Text>
                 <a
@@ -68,10 +68,10 @@ class projects extends Component {
               <Card.Img variant="top" src={calculator} alt="" />
               <Card.Body>
                 <Card.Title>
-                  <h3>TKalculator</h3>
+                  <h3>{t('tkalculator1')}</h3>
                 </Card.Title>
                 <Card.Text>
-                  <p>A simple calculator built using Python and Tkinter </p>
+                  <p>{t('tkalculator2')}</p>
                 </Card.Text>
                 <a
                   href="https://github.com/magmaknight/tkalculator"
@@ -94,4 +94,4 @@ class projects extends Component {
   }
 }
 
-export default projects;
+export default withTranslation()(projects);

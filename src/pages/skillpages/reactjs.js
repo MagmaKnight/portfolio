@@ -2,32 +2,32 @@ import React, { Component } from "react";
 import SkillSelection from "./default.js";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import react from "../../assets/react.png";
+import { withTranslation } from "react-i18next";
+import github from "../../assets/GitHub-Mark-32px.png";
 
-export default class reactjsskill extends Component {
-  render() {
-    return (
-      <div>
-        <div>
-          <h2>Skills</h2>
-        </div>
-        <SkillSelection />
-        <div>
-          <Jumbotron>
-            <img src={react} className="skills2" alt="" />
-            <h2>React JS</h2>
-            <p className="jumbocontent">
-              React JS was quite the beast to start learning, but I consider
-              myself an intermediate at it. I plan on also learning Angular soon
-              enough.
-            </p>
-            <p className="jumbocontent">
-              This entire site was built using React JS , React Bootstrap and
-              React Router. Code available 
-              <a href="https://github.com/MagmaKnight/portfolio"> here</a>
-            </p>
-          </Jumbotron>
-        </div>
-      </div>
-    );
-  }
+class reactjsskill extends Component {
+	render() {
+		const { t } = this.props;
+		return (
+			<div>
+				<div>
+					<h2>{t("skill1")}</h2>
+				</div>
+				<SkillSelection />
+				<div>
+					<Jumbotron>
+						<img src={react} className="skills2" alt="" />
+						<h2>{t("reactjs1")}</h2>
+						<p className="jumbocontent">{t("reactjs2")}</p>
+						<p className="jumbocontent">{t("reactjs3")}</p>
+						<a href="https://github.com/magmaknight/portfolio</Jumbotron>">
+							<img src={github} className="skills3" alt="" />
+						</a>
+					</Jumbotron>
+				</div>
+			</div>
+		);
+	}
 }
+
+export default withTranslation()(reactjsskill);
